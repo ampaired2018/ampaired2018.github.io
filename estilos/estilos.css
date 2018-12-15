@@ -81,8 +81,8 @@ nav ul li a {
 
 section{
 	position: relative;
-	width: 60%;
-	margin: 140px 20% 0px 20%;
+	width: 94%;
+	margin: 140px 3% 0px 3%;
 	text-align: justify;
 
 }
@@ -94,6 +94,148 @@ section{
 
 .slidesjs-container{
 	width: 100%;
-	height: 150px;
-    max-height: 300px;
+	height: 480px;
+}
+
+.slid {
+	font-size: 1.2em;
+}
+
+
+
+.sl_1 div{
+	width: 30%;
+	margin-right: 3.33%;
+ float: left; 
+}
+
+.sl_1 div:last-child {
+	margin-right: -3.33%;
+}
+
+ h3 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.slides {
+      display: none
+    }
+
+    .slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    
+    .slides a:hover,
+    .slides a:active {
+      color: #9e2020
+    }
+
+.des{
+	color:#920d0d;
+	font-size: 1.05em
+}
+.sl_2 div{
+	width: 60%;
+	margin: 0px 20%;
+}
+.sl_3 div{
+	width: 30%;
+	margin: 0px 35%;
+}
+.sl_4{
+	height: 100%;
+} 
+.float{
+	float: left;
+    height: 50%;
+    width: 100%;
+    margin-bottom: -50px;
+}
+.sl_4 div{
+	width: 30%;
+	margin: 0px 35%;
 }
