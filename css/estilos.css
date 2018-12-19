@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  color: #FF5733;
 }
 
 body{
@@ -34,10 +35,11 @@ header{
   text-align: center;
   font-style: italic;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2em;
   padding: 10px;
   min-width: 100px;
   height:auto;
+  color: #FF5733;
 }
 
 .menu{
@@ -50,17 +52,22 @@ header{
 }
 
 .menu div{
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.7);
 }
 
 footer{
   background: rgba(225,225,225, 0.7);
   width: 100%;
   height: 80px;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
+  border-top: 2px solid #FF5733;;
 }
-
+.guia2{
+  padding: 10px;
+    background-color: rgba(250, 250, 250, 0.7);
+    border: 2px solid #FF5733;
+}
 .aliados{
   float: left;
   width: 14%;
@@ -76,11 +83,11 @@ footer{
   margin: 10px 0px;
   font-size: 1.5em;
   text-align:center;
-  border: 2px solid #a12;
+  border: 2px solid #FF5733;
 }
 
 .menu a{
-  color: #000;
+  color: #FF5733;
 }
 
 .produc{
@@ -91,29 +98,58 @@ footer{
   display: inline-flex;
 }
 
-.producto{
+.producto{  font-size: 2em;
   float: left;
   position: relative;
   width: 50%;
   height: 100%;
-  background: #Fff;
   margin-right: 8%;
 }
 
-.tom{
-  background: #f20;
+.productext:hover{
+  background: rgba(250, 250, 250, 0.5);
 }
 
+.tom:hover {
+  background-size: 130%;
+  border: 3px solid #FF5733;
+}
+
+.tom{
+background: url("img/imperio-tom.png");
+  background-repeat: no-repeat;
+  background-size: 190%;
+  background-position: 50%;
+    border: 2px solid #FF5733;
+    transition: 0.3s ease;
+
+}
+.conecta:hover{
+  background-size:90%;
+  border: 3px solid #FF5733;
+}
 .conecta{
-  background: #a15;
+  background: url("img/lococonecta.png");
+  background-repeat: no-repeat;
+  background-size: 180%;
+  background-position: 60% 50%;
+    border: 2px solid #FF5733;
+     transition: 0.3s ease;
 }
 .productext{
   position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(250, 250, 250, 0.7);
+  text-align: center;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+.textco{
+  position: absolute;
   width: 60%;
   margin: 50% 20%;
-  text-align: center;
-  font-size: 1.5em;
-  color: #000;
 }
 
 .produc2{
@@ -121,7 +157,8 @@ footer{
   width: 64.5%;
   height: 500px;
   margin: 2% 0% 0% 5%;
-  background-color: #fa3;
+  background-color: rgba(250, 250, 250, 0.7);
+    border: 2px solid #FF5733;
   display: block;
 }
 
@@ -161,19 +198,17 @@ footer{
 }
 
 .guia{
-  width: 80%;
-  margin: 40px 20% 20px 0;
+  width: 60%;
+  margin: 50px 30% 20px 10%;
   bottom: 0;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
 }
 
-.guia2{
-  padding: 15px;
-  font-size: 1.3em;
-  background-color: #eee;
-  border: 4px solid #ef1;
-  color: #000;
+
+
+.guia3 img{
+  width: 80%;
 }
 
 .tesqui{
@@ -236,8 +271,8 @@ footer{
 .animacion{
   margin-top: -30px;
   position: relative;
-  width: 250%;
-  margin-left: -75%;
+  width: 280%;
+  margin-left: -94%;
 }
 
 .animacion img {
@@ -249,3 +284,4 @@ footer{
   width: 200%;
   margin-left: -50%;
 }
+
