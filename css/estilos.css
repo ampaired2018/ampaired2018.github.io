@@ -64,6 +64,7 @@ footer{
   border-top: 2px solid #FF5733;;
 }
 .guia2{
+  font-size: 1.2em;
   padding: 10px;
     background-color: rgba(250, 250, 250, 0.7);
     border: 2px solid #FF5733;
@@ -198,8 +199,8 @@ background: url("img/imperio-tom.png");
 }
 
 .guia{
-  width: 60%;
-  margin: 50px 30% 20px 10%;
+  width: 80%;
+  margin: 30px 20% 0px -0%;
   bottom: 0;
   text-align: center;
   padding: 10px;
@@ -269,6 +270,7 @@ background: url("img/imperio-tom.png");
 }
 
 .animacion{
+
   margin-top: -30px;
   position: relative;
   width: 280%;
@@ -276,6 +278,8 @@ background: url("img/imperio-tom.png");
 }
 
 .animacion img {
+  border-radius: 50%;
+  border: 3px solid #FF5733;
   position: absolute;width: 100%;
 }
 

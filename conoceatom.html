@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Ampaired</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/juego.json", {onProgress: UnityProgress});
+    </script>
+    <link rel="shortcut icon" href="logo.ico">
+  <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <div class="menu">
+    <a href="index.html"><div class="boton inicio">  Inicio</div></a>
+    <a href="productos.html"><div class="boton productos">  Productos</div></a>
+    <a href="quienessomos.html"><div class="boton quienessomos">  Quienes Somos</div></a>
+  </div>
+    <div class="juego">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Ampaired</div>
+      </div>
+    </div>
+    <footer>
+    <ul>
+      <li class="aliados a1"></li>
+      <li class="aliados a2"></li>
+      <li class="aliados a3"></li>
+      <li class="aliados a4"></li>
+      <li class="aliados a5"></li>
+      <li class="aliados a6"></li>
+      <li class="aliados a7"></li>
+    </ul>
+    
+  </footer>
+  </body>
+</html>
